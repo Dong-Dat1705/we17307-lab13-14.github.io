@@ -5,25 +5,25 @@
     text-align: center;
 }
 tr:nth-child(2n){
-    background-color: #ffffff;
+    background-color: white;
 
 }
 tr:nth-child(2n+1){
-    background-color: #f1f1f1;
+    background-color: white;
 }
 tr:first-child{
-    background-color: #0170bf;
-    color: #ffffff;
+    background-color: cornflowerblue;
+    color: white;
     height: 40px;
 }
 .fix{
-    background-color: #0170bf;
-    color: #ffffff;
+    background-color: cornflowerblue;
+    color: white;
     height: 40px;
 
 }
 table{
-    border: 3px solid rgb(145, 186, 226) ;
+    border: 3px solid brown ;
     border-collapse: collapse;
 
 }
