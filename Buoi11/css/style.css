@@ -10,4 +10,6 @@ border:  greenyellow;
 height: 500px;
 border-collapse: collapse;
 }
-
+td{
+    background-color: lightskyblue;
+}

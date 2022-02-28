@@ -32,8 +32,8 @@ input {
   padding-top:80px;
 }
 .button {
-  background-color: #f95252;
-  color: #fff;
+  background-color: orchid;
+  color: white;
   float:left;
   padding: 4px 24px;
   margin:20px;
@@ -43,10 +43,10 @@ input {
   box-shadow: inset 0 0 20px #f95252;
 }
 .button:hover {
-  background-color: #b80303;
+  background-color: aqua;
 }
 .button:disabled{
-    color:#eb9494;
+    color:pink;
     box-shadow: inset 0 0 20px gray;
 }
 hr{
@@ -57,19 +57,19 @@ hr{
 }
 
 .reg_header {
-  background-color: #f95252;
+  background-color: greenyellow;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  color: #fff;
+  color: white;
   padding: 1px 30px;
 }
 .reg_form {
-  background-color: #fff;
+  background-color: white;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  color: #777;
+  color: gray;
   display: grid;
- gap: 20px; /*cho cái form nó rộng ra*/ 
+ gap: 20px; 
   padding: 20px 26px;
 }
 
@@ -82,7 +82,7 @@ hr{
 .reg input[type="image"], .reg input[type="quoctich"],
 .reg input[type="sothich"] {
   background-color: #eee;
-  color: #777;
+  color: gray;
   padding: 4px 10px;
   width: 94%;
   border-radius: 4px;
@@ -97,7 +97,7 @@ hr{
 }
 #hu:focus{
 background-color:yellow;
-box-shadow:0 0 3px red;
+box-shadow:0 0 3px grey;
 border:1px solid yellow
 }
     </style>
@@ -108,14 +108,14 @@ border:1px solid yellow
     <body class="align">
         <div class="reg">
           <div class="reg_header">
-            <h2>REG</h2>
+            <h2>Sửa hồ sơ</h2>
           </div>
       
           <form action="#" class="reg_form" method="POST" enctype="multipart/form-data">
       
             <div>
               <label for="name">Họ và tên</label>
-              <input type="text"  id="hu" name="email" placeholder="Nguyễn Thành Sơn" tabindex="1">
+              <input type="text"  id="hu" name="email" placeholder="Họ và tên" tabindex="1">
             </div>
       
             <div>

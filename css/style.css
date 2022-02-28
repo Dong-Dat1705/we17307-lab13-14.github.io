@@ -16,6 +16,7 @@ p{
     color: brown;
 }
 article{
+    margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 20px;
     width: 25%;
@@ -99,14 +100,16 @@ a:hover{
 }
 footer{
     clear: both;
-    /* background-color: rgb(243, 93, 93); */
+    background-color: rgb(243, 93, 93);
     height: 80px;
+    width: 90%;
+    margin-left: 5%;
     
 }
 footer h5{
     text-align: center;
     font-weight: bold;
     color: #fff;
-    font-size: 19px;
-    padding-top: 10px;
+    font-size: 25px;
+    padding-top: 20px;
 }
