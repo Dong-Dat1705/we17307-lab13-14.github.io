@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+header{
+    width: 90%;
+    margin: 0 auto;
+    background-color: aqua;
+    min-height: 100px;
+}
+p{
+    text-align: center;
+    font-size: 35pt;
+    padding-top: 25px;
+    color: brown;
+}
+article{
+    width: 25%;
+    min-height: 550px;
+    background-color: lightblue;
+    float: left;
+    margin-left: 5%;
+    margin-left: 5%;
+}
+aside{
+    width: 65% ;
+    min-height: 550px;
+    background-color: lightslategray;
+    float: left;
+}
+iframe{
+    width: 90%;
+    height: 500px;
+    margin: 25px 5%;
+}
